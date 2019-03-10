@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="img/code-icon.png" />
+
+  <title>Hello World</title>
+  
+</head>
+
+<body>
+  <!--imagen logo-->
+  <section class="container-fluid slider d-flex justify-content-center">
+    <h4 class="display-2 align-self-center text-muted">Hello World</h4>
+  </section>
+  <!--imagen logo-->
+
+  <!--navbar-principal
+      navbar-expand-sm : mas alla de 768px se mostraran los items
+    -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+
+    <a class="navbar-brand" href="#">
+      <img src="img/logo-icon.png" width="30px" height="30px" class="d-inline-block align-top" alt="Logo Hello World">
+      Hello World
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_Options">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar_Options">
+      <ul class="navbar-nav text-center mr-auto ml-auto">
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Iniciar Sesion</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Registrate</a>
+        </li>
+      </ul>
+      <div class="d-flex flex-row justify-content-center">
+        <a href="#" class="btn btn-outline-primary mr-2">
+          <img src="img/fb-icon.png" width="30px" height="30px" alt="Link Facebook">
+        </a>
+        <a href="#" class="btn btn-outline-danger">
+          <img src="img/yt-icon.png" width="30px" height="30px" alt="Link Youtube">
+        </a>
+      </div>
+    </div>
+
+  </nav>
+  <!--navbar-principal
+    -->
+  <!--card formulario-->
+
+  <div class="container mt-5 pt-5 mb-5 mb-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center align-middle">
+        <div class="card mb-5" style="width: 18rem;">
+          <img src="img/social-media.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Hello World, la nueva red social</h5>
+            <p class="card-text text-muted text-center">Buscamos unir a todos los programadores del mundo interesados en
+              compartir su experiencias asi como con ganas de conocerse.</p>
+            <a href="#" class="btn btn-dark d-block mr-5 ml-5">
+              <img src="img/github-icon.png" width="35px" height="35px" alt="Link Github">Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center align-middle">
+        <!--- Jumbotron formulario-->
+        <div class="jumbotron border bg-white rounded">
+          <h1 class="display-4">¡Ingresa!</h1>
+          <p class="lead">Escribe tus credenciales e ingresa, asi de facil y rapido.</p>
+          <hr class="my-4">
+          <form action="">
+            <div class="form-group form-row">
+              <label class="col-3 col-form-label" for="usuario">Usuario:</label>
+              <input class="col-9 form-control " type="text" name="usuario" value="" placeholder="Escribe tu usuario">
+            </div>
+            <div class="form-group form-row">
+              <label class="col-3 col-form-label" for="contraseña">Contraseña:</label>
+              <input class="col-9 form-control" type="password" name="contraseña" placeholder="Escribe tu contraseña"
+                value="">
+            </div>
+            <div class="form-row d-flex align-items-center">
+              <div class="col-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="">
+                  <label class="form-check-label" for="">
+                    ¿Recordar tus datos?
+                  </label>
+                </div>
+              </div>
+              <div class="col-6 ml-auto d-flex justify-content-end">
+                <button class="btn btn-primary" type="button" name="login">
+                  <img src="img/login-icon.png" height="30px" alt="">
+                  Ingresa
+                </button>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+        <!--- Jumbotron formulario-->
+
+      </div>
+    </div>
+  </div>
+  <!-- footer-->
+  <footer class="footer bg-dark">
+    <div class="container text-center">
+      <span class="text-light"><img src="img/copy-icon.png" width="30px" alt=""> Carlos Rodriguez - 2019</span>
+    </div>
+  </footer>
+  <!-- footer-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
