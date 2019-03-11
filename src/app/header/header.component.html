@@ -1,0 +1,44 @@
+<header>
+  <!--imagen logo-->
+  <section class="container-fluid slider d-flex justify-content-center">
+    <h4 class="display-2 align-self-center text-muted">Hello World</h4>
+  </section>
+  <!--imagen logo-->
+
+  <!--navbar-principal
+      navbar-expand-sm : mas alla de 768px se mostraran los items
+    -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+
+    <a class="navbar-brand" href="#">
+      <img src="../../assets/img/logo-icon.png" width="30px" height="30px" class="d-inline-block align-top" alt="Logo Hello World">
+      Hello World
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_Options">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar_Options">
+      <ul class="navbar-nav text-center mr-auto ml-auto">
+        <li class="nav-item active">
+          <a routerLink="/login" routerLinkActive="active" class="nav-link">Iniciar Sesion</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/register" class="nav-link">Registrate</a>
+        </li>
+      </ul>
+      <div class="d-flex flex-row justify-content-center">
+        <a href="#" class="btn btn-outline-primary mr-2">
+          <img src="../../assets/img/fb-icon.png" width="30px" height="30px" alt="Link Facebook">
+        </a>
+        <a href="#" class="btn btn-outline-danger">
+          <img src="../../assets/img/yt-icon.png" width="30px" height="30px" alt="Link Youtube">
+        </a>
+      </div>
+    </div>
+
+  </nav>
+  <!--navbar-principal
+    -->
+</header>

@@ -1,0 +1,103 @@
+ <!--card formulario-->
+
+ <div class="container ">
+  <div class="row">
+
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center align-middle pt-5">
+          <!--- Jumbotron formulario-->
+          <div class="jumbotron border bg-white rounded w-100">
+              <h1 class="display-4">¡Registrate!</h1>
+
+              <hr class="my-4">
+              <form action="">
+                  <div class="form-group form-row">
+                      <!--Nombres-->
+                      <label class="col-3 col-form-label" for="nombres">Nombres:</label>
+                      <input class="col-9 form-control " type="text" name="nombres" value=""
+                          placeholder="Tus nombres">
+                  </div>
+
+                  <div class="form-group form-row">
+                      <!--Apellidos-->
+                      <label class="col-3 col-form-label" for="apellidos">Apellidos:</label>
+                      <input class="col-9 form-control " type="text" name="apellidos" value=""
+                          placeholder="Tus apellidos">
+                  </div>
+
+
+                  <div class="form-group form-row">
+                      <!--Genero-->
+                      <label class="col-4 col-form-label" for="genero">Genero:</label>
+
+                      <div class="col-3 form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="genero" id="hombre" value="H">
+                          <label class="form-check-label" for="hombre">Hombre</label>
+                      </div>
+
+                      <div class="col-3 form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="genero" id="mujer" value="M">
+                          <label class="form-check-label" for="mujer">Mujer</label>
+                      </div>
+
+                  </div>
+                  <!--Fecha Nacimiento-->
+                  <div class="form-group form-row">
+                      <label class="col-3 col-form-label" for="nacimiento">Nacimiento:</label>
+                      <input class="col-9" id="datepicker" width="276" value="" />
+                  </div>
+
+                  <!--Usuario-->
+                  <div class="form-group form-row">
+                      <label class="col-3 col-form-label" for="contraseña">Usuario:</label>
+                      <input class="col-9 form-control" type="text" name="contraseña"
+                          placeholder="Escribe tu usuario" value="">
+                  </div>
+                  <!--Contraseña-->
+                  <div class="form-group form-row">
+                      <label class="col-3 col-form-label" for="contraseña">Contraseña:</label>
+                      <input class="col-9 form-control" type="password" name="contraseña"
+                          placeholder="Escribe tu contraseña" value="">
+                  </div>
+                  <!--Confirmacion-->
+                  <div class="form-group form-row">
+                      <label class="col-3 col-form-label" for="contraseña">Confirmacion:</label>
+                      <input class="col-9 form-control" type="password" name="contraseña"
+                          placeholder="Vuelve a escribir tu contraseña" value="">
+                  </div>
+                  <div class="form-row d-flex align-items-center">
+                      <div class="col-8">
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="">
+                              <label class="form-check-label" for="">
+                                  Aceptar terminos y condiciones
+                              </label>
+                          </div>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                          <button class="btn btn-primary" type="button" name="login">
+                              <img src="../../assets/img/signup-icon.png" height="30px" alt="">
+                              Registrate
+                          </button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <!--- Jumbotron formulario-->
+
+      </div>
+
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+          <div class="card mt-auto mb-auto" style="width: 25rem;">
+              <img src="../../assets/img/register-image.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title text-center">Hello World, te esta esperando</h5>
+                  <p class="card-text text-muted text-center">Completa el registro de la izquierda, has clic en
+                      Unirme y listo.</p>
+                  <a href="#" class="btn btn-dark d-block mr-5 ml-5">
+                      <img src="../../assets/img/github-icon.png" width="35px" height="35px" alt="Link Github">Github
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
